@@ -1,0 +1,22 @@
+.posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .post-item {
+    width: calc(33.333% - 20px); /* 33.333% width with some margin between items */
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 18px;
+  }
+  

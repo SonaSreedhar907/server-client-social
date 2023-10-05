@@ -7,6 +7,7 @@ import Form from './component/Form/Form';
 import { useDispatch } from 'react-redux';
 import {getPosts} from './actions/posts'
 
+
 const StyledAppBar = styled(AppBar)({
   borderRadius: 15,
   margin: '30px 0',

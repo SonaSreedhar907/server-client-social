@@ -4,6 +4,7 @@ import { TextField, Button, Typography } from '@mui/material';
 import FileBase from 'react-file-base64';
 import { useDispatch } from 'react-redux';
 import { createPost } from '../../actions/posts';
+
 const FormContainer = styled('div')(({ theme }) => ({
   '& .MuiTextField-root': {
     margin: theme.spacing(1),
